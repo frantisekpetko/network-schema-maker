@@ -1,0 +1,53 @@
+.root {
+    display: flex;
+}
+
+.appBar {
+    transition: 2s width;
+    transition-timing-function: ease;
+}
+
+.app-bar-shift {
+    width: calc(100% - 240px);
+    margin-left: 240px;
+    transition: 2s width;
+    transition-timing-function: ease;
+}
+
+.menu-button {
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.drawer {
+    width: 240px;
+    flex-shrink: 0;
+}
+
+.drawer-paper {
+    width: 240px;
+}
+
+.drawerHeader {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    justify-Content: flex-end;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 30px;
+    transition: 2s margin;
+    transition-timing-function: ease;
+    margin-left: 240px;
+}
+
+.content-shift {
+    transition: 2s margin;
+    margin-left: 0;
+}
