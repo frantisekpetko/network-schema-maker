@@ -1,0 +1,32 @@
+{
+    "drawerItems": [
+      {
+        "name": "Basic geometry",
+        "list": [
+          "Square",
+          "Rectangle",
+          "Circle"
+        ]
+      },
+      {
+        "name": "Complex geometry",
+        "list": [
+          "Arrow",
+          "2D square"
+        ]
+      },
+      {
+        "name": "Simple network",
+        "list": [
+          "Switch",
+          "Router",
+          "AP",
+          "Generic server",
+          "Network cloud",
+          "PC",
+          "Mobile",
+          "IP phone"
+        ]
+      }
+    ]
+}

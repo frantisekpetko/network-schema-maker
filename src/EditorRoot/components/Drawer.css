@@ -1,53 +1,30 @@
-.root {
+.search-root {
+    width: calc(70%);
+    margin-left: 2rem !important;
+    padding: 2px 10px;
     display: flex;
+    align-items: center;
+}
+.input {
+    flex: 1;
 }
 
-.appBar {
-    transition: 2s width;
-    transition-timing-function: ease;
+.icon-button {
+    padding: 10px;
 }
-
-.app-bar-shift {
-    width: calc(100% - 240px);
-    margin-left: 240px;
-    transition: 2s width;
-    transition-timing-function: ease;
-}
-
-.menu-button {
-    margin-left: 12px;
-    margin-right: 20px;
-}
-
-.hide {
-    display: none;
+.divider {
+    height: 20px;
+    margin: 4px;
 }
 
 .drawer {
-    width: 240px;
-    flex-shrink: 0;
+    width: 100px !important;
 }
 
-.drawer-paper {
-    width: 240px;
+.exp-width {
+    width: 19rem;
 }
 
-.drawerHeader {
-    display: flex;
-    align-items: center;
-    padding: 0 8px;
-    justify-Content: flex-end;
-}
-
-.content {
-    flex-grow: 1;
-    padding: 30px;
-    transition: 2s margin;
-    transition-timing-function: ease;
-    margin-left: 240px;
-}
-
-.content-shift {
-    transition: 2s margin;
-    margin-left: 0;
+.heading {
+    font-size: 2rem;
 }
